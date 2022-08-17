@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rhi writes - Home page</title>
+    <title>Article - Rhi writes</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,24 +33,16 @@
     </nav>
 
 
-    <header class="hero">
-        <div class="right-content">
-            <h1>Rhi Writes</h1>
+    <header class="article-header">
+        <div class="article-title">
+            <h1>Levitate</h1>
             <h2>Lorem ipsum dolor sit amet.</h2>
         </div>
-        <div class="left-content">
-            <div class="glass">
-                <!-- From https://codepen.io/deeonwuli/pen/bGvbqgm -->
-                <div class="drink">
-                    <div class="straw"></div>
-                    <div class="ice"></div>
-                </div>
-            </div>
-            <div class="hero-bg"></div>
-        </div>
+        <img class="article-header-img" src="img/levitate-img.jpg" alt="Levitate over water">
     </header>
+
     <article>
-        <h2>Latest article</h2>
+        <h2>Article</h2>
         <h3>Lorem ipsum dolor sit amet.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales massa in turpis pellentesque interdum.
             Nullam et ex ac nibh molestie volutpat sit amet vitae neque. Praesent interdum dapibus suscipit. Nunc ut
@@ -58,38 +50,42 @@
             blandit arcu. Aliquam sed ornare metus. Donec non felis molestie, venenatis dui eu, mollis ipsum. Integer
             quis rutrum mi. Donec imperdiet nibh metus, non ullamcorper est ultrices eu. Mauris euismod sagittis
             tincidunt. Maecenas non urna risus. </p>
-        <a href="article.html"><button type="button" class="read-more">Read more</button></a>
+        <div class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales massa in turpis
+            pellentesque interdum.</div>
+        <p>I am a <a href="#">LINK</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales massa in turpis pellentesque interdum.
+            Nullam et ex ac nibh molestie volutpat sit amet vitae neque. Praesent interdum dapibus suscipit. Nunc ut
+            nulla pharetra, gravida libero eget, dapibus erat. Mauris lectus dui, placerat ac porttitor dictum, commodo
+            blandit arcu. Aliquam sed ornare metus. Donec non felis molestie, venenatis dui eu, mollis ipsum. Integer
+            quis rutrum mi. Donec imperdiet nibh metus, non ullamcorper est ultrices eu. Mauris euismod sagittis
+            tincidunt. Maecenas non urna risus. </p>
     </article>
-    <section class="blog-tiles">
-        <div class="tile"><a href="article.html">
-                <img class="tile-img" src="img/levitate.png" alt="Lorem ipsum dolor sit amet">
-                <div class="tile-info">
+
+    <section class="next">
+        <div class="selector left"><a href="#">
+            <img class="select-img" src="img/loving.png" alt="Lorem ipsum dolor sit amet">
+                <div class="left-arrow-wp">
+                    <div class="arrow-head"></div>
+                </div>
+                <div class="select-info">
                     <span>Lorem ipsum dolor sit amet.</span>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum.</span>
                 </div>
-            </a>
-        </div>
-        <div class="tile"><a href="#">
-                <img class="tile-img" src="img/loving.png" alt="Lorem ipsum dolor sit amet">
-                <div class="tile-info">
+            </a></div>
+        <div class="separator"></div>
+        <div class="selector right"><a href="#">
+                <img class="select-img" src="img/playing.png" alt="Lorem ipsum dolor sit amet">
+                <div class="right-arrow-wp">
+                    <div class="arrow-head"></div>
+                </div>
+                <div class="select-info">
                     <span>Lorem ipsum dolor sit amet.</span>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum.</span>
                 </div>
-            </a>
-        </div>
-        <div class="tile"><a href="#">
-                <img class="tile-img" src="img/playing.png" alt="Lorem ipsum dolor sit amet">
-                <div class="tile-info">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum.</span>
-                </div>
-            </a>
-        </div>
+            </a></div>
     </section>
     <footer>
         <p>Rhi Writes</p>
         <p>by <a href="https://github.com/egraille" target="_blank">Ems</a></p>
     </footer>
 </body>
-
-</html>
